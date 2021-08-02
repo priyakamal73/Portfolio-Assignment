@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dikshu{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.hipwallpaper.com/i/9/63/kcN7UR.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    color: goldenrod;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+span{
+    color:goldenrod;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ul li{
+   
+    display: inline-block;
+    padding: 10px 30px;
+    color:goldenrod !important;
+    text-decoration: none; 
+    border: 1px solid transparent;
+    transition: transform 0.5s;
+}
+
+ul li a{
+    font-size: bigger;
+    color: black;
+    text-decoration: none;
+    
+}
+
+ul li a:hover{
+    color: orangered;
+}
+.btn{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .6s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+.content{
+    position:absolute;
+    top:27%;
+    left:39%;
+}
+
+h1{
+    color: black;
+    margin: 20px 0 20px;
+    font-size: 70px;
+}
+h2{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: goldenrod;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.cost form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+
+}
+.cost form input:first-child{
+    width: 100%;
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid black;
+    border-radius: 300px;
+
+}
+.cost form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+.bite{
+    display: flex;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+#linkdin{
+    width :50px;
+    height : 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 5px;
+}
+#facebook{
+    width :50px;
+    height : 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 5px;
+    
+}
+#youtube{
+    width :50px;
+    height : 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 1px;
+}
+#twitter{
+    width :50px;
+    height : 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 5px;
+}
+#instagram{
+    width :50px;
+    height : 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 5px;
+}
